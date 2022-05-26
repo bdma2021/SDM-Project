@@ -1,0 +1,7 @@
+id,table,datatype,originalAttr,foreignKey,label,comment
+c1,t1,float,a1,,"temperature",
+c2,t1,float,a2,,"latitude",
+c3,t1,float,a3,,"longitude",
+c4,t2,float,a4,,"elevation",
+c5,t2,float,a5,c2,"latitude",
+c6,t2,float,a6,c3,"longitude",

@@ -1,0 +1,4 @@
+id,baseurl,label,comment
+ds1,"https://api.gbif.org/","gbif","blah blah blah"
+ds2,"https://neo.gsfc.nasa.gov/archive/geotiff.float/","nasa","blah blah blah"
+ds2,"https://biogeo.ucdavis.edu/data/worldclim/","worldclim","blah blah blah"

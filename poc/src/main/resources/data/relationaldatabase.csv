@@ -1,0 +1,3 @@
+id,datasource,label,comment
+rdb1,ds1,"raster species","example"
+rdb1,ds2,,"this is the same db repeated because  it comes from different data sources"

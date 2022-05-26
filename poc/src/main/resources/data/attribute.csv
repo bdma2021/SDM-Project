@@ -1,0 +1,7 @@
+id,file,relatedattr,label,comment
+a1,f1,,"temperature",
+a2,f1,,"lat",
+a3,f1,,"lon",
+a4,f2,,"elevation",
+a5,f2,a2,"lat",
+a6,f2,a3,"lon",

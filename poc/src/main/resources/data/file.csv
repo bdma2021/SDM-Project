@@ -1,0 +1,7 @@
+id,url,format,version,timestamp,datasource,label,comment
+f1,"http://example.com","csv",1,1653544523,ds1,,
+f2,"http://example.com","csv",1,1653544523,ds1,"example","example"
+f3,"http://example.com","csv",1,1653544523,ds2,,
+f4,"http://example.com","csv",1,1653544523,ds2,"example","example"
+f5,"http://example.com","csv",1,1653544523,ds3,,
+f6,"http://example.com","csv",1,1653544523,ds3,"example","example"

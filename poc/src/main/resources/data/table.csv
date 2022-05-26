@@ -1,0 +1,3 @@
+id,database,label,comment
+t1,rdb1,"temperature","example"
+t2,rdb1,"elevation",
