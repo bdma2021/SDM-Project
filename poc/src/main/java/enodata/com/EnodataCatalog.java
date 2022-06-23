@@ -90,7 +90,7 @@ public class EnodataCatalog {
             String label = line[3];
             String comment = line[4];
             builder.subject(id).add(RDFS.MEMBER, file);
-            if (!relatedAttr.equals("")) {
+            if (!relatedAttr.equals(iri(""))) {
                 builder.subject(id).add(CatalogSchema.RELATES_TO, relatedAttr);
             }
             addLabel(builder, id, label);
@@ -138,7 +138,7 @@ public class EnodataCatalog {
                     .add(RDFS.MEMBER, table)
                     .add(CatalogSchema.DATATYPE, datatype)
                     .add(CatalogSchema.COMES_FROM_ATTR, originalAttr);
-            if (!foreignKey.equals("")) {
+            if (!foreignKey.equals(iri(""))) {
                 builder.subject(id).add(CatalogSchema.FOREIGN_KEY, foreignKey);
             }
             addLabel(builder, id, label);
