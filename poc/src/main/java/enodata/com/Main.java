@@ -26,7 +26,7 @@ public class Main {
         catalogSchema.createSchema(tboxBuilder);
 
         EnodataCatalog enodataCatalog = EnodataCatalog.getInstance();
-        enodataCatalog.createInstances(builder, DIRECTORY);
+        enodataCatalog.createInstances(builder.defaultGraph(), DIRECTORY);
 
         Model model = builder.build();
 
